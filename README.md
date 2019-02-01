@@ -9,7 +9,8 @@ passgen makes random passwords that look like this:
     o6uaFo-vvypoc-ucbbtn
 
 Usually this makes for a secure password while satisfying the length and
-character requirements of most websites.
+character requirements of most websites. Passgen makes use of [libsodium](https://github.com/jedisct1/libsodium)
+to ensure that all generated passwords are cryptographically secure.
 
 ## Usage
 

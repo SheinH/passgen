@@ -28,9 +28,5 @@ int main() {
 				output[i][i2] = randombytes_uniform(26) + 'a';
 		}
 	}
-	printf("%s",output[0]);
-	putchar('-');
-	printf("%s",output[1]);
-	putchar('-');
-	puts(output[2]);
+	printf("%s-%s-%s\n",output[0],output[1],output[2]);
 }

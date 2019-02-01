@@ -17,10 +17,10 @@ to ensure that all generated passwords are cryptographically secure.
 To build passgen:
 
 1. Install `pkg-config` and `libsodium` from your package manager
-2. Clone this repository and `cd` into it
+2. Clone this repository then `cd` into its directory
 2. Run `build.sh`
 
-To use passgen, simply execute the passgen executable.
+To use passgen, simply execute the passgen binary.
 
 On MacOS, passgen can also be piped into the system clipboard using this command
 

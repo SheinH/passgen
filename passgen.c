@@ -4,11 +4,11 @@
 char output[3][7];
 
 int main() {
-    if (sodium_init() < 0) {
-        /* panic! the library couldn't be initialized, it is not safe to use */
-        return 1;
-    }
-    char myInt;
+	if (sodium_init() < 0) {
+		/* panic! the library couldn't be initialized, it is not safe to use */
+		return 1;
+	}
+	char myInt;
 
 	char randInt = randombytes_uniform(10) + '0';
 	char randCapital = randombytes_uniform(26) + 'A';

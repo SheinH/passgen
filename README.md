@@ -1,6 +1,8 @@
 # passgen
 passgen is a Unix philosophy utility for generating random passwords in the style of Safari:
+
 ![Safari passwords](https://i.imgur.com/cihqhzS.png)
+
 
 passgen makes random passwords that look like this:
 
